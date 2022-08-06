@@ -342,6 +342,16 @@ const SettingsWindowGeneral = memo(({ darkMode, lang, platform }: { darkMode: bo
                         >
                             中文
                         </option>
+                        <option 
+                            value="ja" 
+                            style={{
+                                backgroundColor: colors(platform, darkMode, "backgroundSecondary"),
+                                height: "30px",
+                                borderRadius: "10px"
+                            }}
+                        >
+                            日本語
+                        </option>
                     </Select>
                     </Flex>
                 </Flex>
